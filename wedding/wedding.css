@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+ul, ol {
+     list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+ul {
+    margin-bottom: 0rem !important;
+}
+.h500 {
+    height: 500px !important;
+}
+.pd-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+html,h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.pd-t24 {
+    padding-top: 24px;
+}
+.pd-l16 {
+    padding-left: 16px;
+}
+.pd-r16 {
+    padding-right: 16px;
+}
+.mt-64 {
+    margin-top: 64px;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+body {
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+    background: #fff; 
+    font-family:'Times New Roman', Times, serif ;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+header.sticky{
+    background:#fff;
+    opacity: 0.9;
+    padding: 4px 0px;
+    box-shadow: 0px 9px 20px 0px rgba(20,20,20,0.67);
+    z-index: 999;
+}
+  
+header.sticky .logo {
+    color: #000;
+}
+header.sticky .logo:hover {
+    color: #f65e39;
+}
+
+.logo {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+}
+.logo:hover {
+    color: #000;
+}
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul#main-menu {
+    display: flex;
+}
+ul#main-menu a {
+    padding-top: 20px;
+    color: black;
+    display: block;
+}
+.menu-item {
+    padding: 0px 18px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul#main-menu a:hover {
+    color: #f65e39;
+}
+.img-banner {
+    min-width: 480px;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+/* subtitles */
+.subtitles {
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    text-transform: uppercase; 
+}
+
+.subtitles-item {
+    
+}
+
+.subtitles-item:hover {
+    cursor: pointer;
+    color: #888;
+    border-bottom: 1px solid #999;
+}
+.title {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 32px;
+    margin-top: -32px;
+    font-style: italic;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.schedule {
+    text-align: center;
+}
+.btn-register {
+    color: rgb(67, 66, 66);
+    background-color: #d8bdb3;
+    padding: 10px 48px ;
+    display:inline-block ;
+    margin-bottom: 64px;
+    border-style: solid;
+    border-color: #d8bdb3;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-register:hover {
+    background-color: #fff;
+    color: #d8bdb3;
+}
+/*  */
+section {
+    margin: 120px 12px;
+}
+
+section .img {
+    margin-top: 24px;
+}
+
+
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: all ease 3s;
+}
+
+section .img div {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+    overflow: hidden;
+}
+.anh1 {
+    height: 800px;
+}
+.anh2 {
+    height: 800px;
+
+}
+.img-anh-khach {
+    width: 100%;
+    margin-top: -64px;
+    margin-bottom: 64px;
+}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.w66 {
+    width: 66.1%;
+}
+.w33{
+    width: 32.333333% !important;
+}
+.w50 {
+    width: 49%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-wedding {
+    min-width: 480px;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.img-wedding2 {
+    /* min-width: 480px; */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.heading-title {
+    text-align: center;
+    margin-top: 64px;
+    font-size: 34px;
+}
+.heading {
+    margin-left: 64px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    border-left: 2px solid;
+    padding-left: 8px;
+    font-size: 30px;
+}
+h2 > .heading:nth-child(2) {
+    margin-top: 48px;
+}
+.heading-honeymoon {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-left: 2px solid;
+    padding-left: 8px;
+}
+.info {
+    margin-left: 64px;
+    margin-right: 64px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+.info-honeymoon {
+    margin: 0 16px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+/*  footer */
+.footer-bottom {
+    padding: 19px 0 25px;
+    float: left;
+    background-color:#999;
+    width: 100%;
+}
+.footer-bottom-dsc {
+    font-weight: 300;
+    line-height: 21px;
+    color: #000;
+    text-align: center;
+    margin-top: 6px;
+}
+.social-icons {
+    padding-left:0;
+     margin-bottom:0;
+    list-style:none;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+
+.social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+     margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+     -o-transition:all .2s linear;
+     transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+    color:#fff;
+    background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+}
+.social-icons a.facebook:hover
+{
+    background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+    background-color:#00aced
+}
+.social-icons a.youtube:hover
+{
+    background-color:#e31515
+}
+.social-icons a.instagram:hover
+{
+    background-color:#ea4c89
+}
+
+.nav__bars-btn {
+    width: 28px;
+    height: 28px;
+    display: none;
+    margin-right: 32px;
+}
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    animation:  navFadeIn linear 0.9s;
+}
+.nav__mobile {
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    opacity: 0;
+    width: 250px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: transform linear 0.3s, opacity linear 0.3s;
+}
+.nav__mobile-close {
+    width:28px ;
+    height: 28px;
+    color: #666;
+    position: absolute;
+    top: 0.4rem;
+    right: 2rem;
+}
+.main-menu-mobile {
+    margin-top: 60px;
+    margin-left: 24px;
+}
+.menu-item-mobile {
+    display: block;
+    padding: 8px 0;
+    font-size: 1.2rem;
+}
+.nav__input {
+    display: none;
+}
+.nav__input:checked ~ .nav__overlay {
+    display: block;
+}
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+@keyframes  navFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width: 739px) {
+    .nav__bars-btn {
+        display: block;
+    }
+    .nav__pc {
+        display: none;
+    }
+    #main-menu {
+        display: none !important;
+    }
+}
+
+/* Responsive Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .nav__bars-btn {
+        display: block;
+    }
+    .nav__pc {
+        display: none;
+    }
+    #main-menu {
+        display: none !important;
+    }
+    .subtitles-item {
+        text-align: center;
+        font-size: 14px;
+    }
+    .img-wedding {
+        height: 400px;
+        min-width: auto;
+    }
+    .img-wedding2 {
+        height: 350px;
+        padding-right: 24px;
+    }
+    .col-sm-6 {
+        width: 100% !important;
+    }
+    .col-sm-4 {
+        width: 33.333333% !important;
+    }
+    .col-sm-8 {
+        width: 66.666666%;
+    }
+    .info-honeymoon { 
+        margin-bottom: 64px;
+    }
+
+
+} 
+@media (min-width: 576px) {
+    .container {
+        max-width: none !important;
+    }
+}
